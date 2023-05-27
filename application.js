@@ -62,6 +62,7 @@ switchButton.addEventListener('click', function(){
   var lightIcons = document.querySelectorAll('.light-icon');
   var darkIcons = document.querySelectorAll('.dark-icon');
   var lightTexts = document.querySelectorAll('.text-black');
+  var lightHeaderTexts = document.querySelectorAll('.text-black-header');
   for(var i=0; i<lightIcons.length; i++){
     lightIcons[i].classList.toggle('hidden');
     darkIcons[i].classList.toggle('hidden');
@@ -69,5 +70,8 @@ switchButton.addEventListener('click', function(){
   for(var i=0; i<lightTexts.length; i++){
     lightTexts[i].classList.toggle('text-slate-100');
   }
-  document.body.classList.toggle('bg-slate-500');
+  for(var i=0; i<lightHeaderTexts.length; i++){
+    lightHeaderTexts[i].classList.toggle('text-[#04aa6d]');
+  }
+  document.body.classList.toggle('bg-slate-700');
 })

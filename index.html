@@ -1,217 +1,346 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
 
-    <title>Sabri ÇAKIR - Full Stack Web Developer</title>
-  </head>
-  <body>
-    <nav class="container mx-auto p-6 md:w-1/2">
-      <div class="flex justify-between items-center">
-        <div>
-          <h1 class="text-black text-3xl font-bold hover:cursor-pointer">
-            Sabri <span class="app-text-red">ÇAKIR</span>
-          </h1>
-        </div>
-        <div class="flex items-center justify-center">
-          <label for="toggleB" class="flex items-center cursor-pointer">
-            <!-- toggle -->
-            <div class="relative">
-              <!-- input -->
-              <input type="checkbox" id="toggleB" class="sr-only" />
-              <!-- line -->
-              <div class="block bg-gray-600 w-14 h-8 rounded-full"></div>
-              <!-- dot -->
-              <div
-                class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"
-              ></div>
-            </div>
-            <!-- label -->
-            <div class="text-black ml-3 text-gray-700 font-medium">
-              Dark Mode
-            </div>
-          </label>
-        </div>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+
+  <title>Sabri ÇAKIR - Full Stack Web Developer</title>
+</head>
+
+<body>
+  <nav class="container mx-auto p-6 md:w-1/2">
+    <div class="flex justify-between items-center">
+      <div>
+        <h1 class="text-black text-3xl font-bold hover:cursor-pointer">
+          Sabri <span class="text-[#04aa6d]">ÇAKIR</span>
+        </h1>
       </div>
-    </nav>
-
-    <header class="flex flex-col justify-center items-center mx-auto mt-16">
-      <div class="rounded-full bg-red-500 h-64 w-64 overflow-hidden box-border">
-        <img
-          src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortWaved&accessoriesType=Prescription01&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=White&eyeType=Default&eyebrowType=Default&mouthType=Smile&skinColor=Light"
-          alt="Sabri ÇAKIR"
-          class="object-cover"
-        />
+      <div class="flex items-center justify-center">
+        <label for="toggleB" class="flex items-center cursor-pointer">
+          <!-- toggle -->
+          <div class="relative">
+            <!-- input -->
+            <input type="checkbox" id="toggleB" class="sr-only" />
+            <!-- line -->
+            <div class="block bg-gray-600 w-14 h-8 rounded-full"></div>
+            <!-- dot -->
+            <div class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"></div>
+          </div>
+          <!-- label -->
+          <div class="text-black ml-3 text-gray-700 font-medium">
+            Dark Mode
+          </div>
+        </label>
       </div>
-      <h4
-        class="text-center text-black text-3xl font-bold hover:cursor-pointer mt-8"
-      >
-        Hi There, I'm Sabri
-        <span class="block mx-auto"> I Am Into <span>
-        <a
-          href=""
-          class="typewrite app-text-red"
-          data-period="2000"
-          data-type='["Web Technologies"]'
-        >
-          <span class="wrap"></span>
-        </a>
-      </h4>
-      <p class="text-black text-lg mt-4 md:w-1/3 w-96 mx-auto text-center">
-        A computer engineer student, who working with ruby on rails & hotwire
-        and wants to be become a full stack web developer.
-      </p>
-    </header>
+    </div>
+  </nav>
 
-    <section
-      class="w-64 mt-8 flex justify-center items-center text-center mx-auto space-x-4"
-    >
-      <a href="https://www.linkedin.com/in/sabricakir">
-        <img
-          src="images/linkedin-light.svg"
-          alt="linkedin-light"
-          width="65"
-          height="65"
-          class="light-icon"
-        />
-        <img
-          src="images/linkedin-dark.svg"
-          alt="linkedin-dark"
-          width="65"
-          height="65"
-          class="dark-icon hidden"
-        />
-      </a>
-      <a href="https://github.com/sabricakir">
-        <img
-          src="images/github-light.svg"
-          alt="github-light"
-          width="65"
-          height="65"
-          class="light-icon"
-        />
-        <img
-          src="images/github-dark.svg"
-          alt="github-dark"
-          width="65"
-          height="65"
-          class="dark-icon hidden"
-        />
-      </a>
-      <a href="mailto:sabricakir86@gmail.com">
-        <img
-          src="images/email-light.svg"
-          alt="email-light"
-          width="65"
-          height="65"
-          class="light-icon"
-        />
-        <img
-          src="images/email-dark.svg"
-          alt="email-dark"
-          width="65"
-          height="65"
-          class="dark-icon hidden"
-        />
-      </a>
-      <a href="https://www.instagram.com/sabricakirr/">
-        <img
-          src="images/insta-light.svg"
-          alt="insta-light"
-          width="65"
-          height="65"
-          class="light-icon"
-        />
-        <img
-          src="images/insta-dark.svg"
-          alt="insta-dark"
-          width="65"
-          height="65"
-          class="dark-icon hidden"
-        />
-      </a>
-    </section>
+  <header class="flex flex-col justify-center items-center mx-auto mt-16">
+    <div class="rounded-full bg-red-500 h-64 w-64 overflow-hidden box-border">
+      <img
+        src="https://avatars.githubusercontent.com/u/84380549?v=4"
+        alt="Sabri ÇAKIR" class="object-cover" />
+    </div>
+    <h4 class="text-center text-black text-3xl font-bold hover:cursor-pointer mt-8">
+      Hi There, I'm Sabri
+      <span class="block mx-auto"> I Am Into <span>
+          <a href="" class="typewrite text-[#04aa6d]" data-period="2000" data-type='["Web Technologies"]'>
+            <span class="wrap"></span>
+          </a>
+    </h4>
+    <p class="text-black text-lg mt-4 md:w-1/3 w-96 mx-auto text-center">
+      A computer engineer student, who currently working with ruby on rails & hotwire
+      and wants to be become a full stack web developer.
+    </p>
+  </header>
 
-    <section
-      class="flex flex-col md:flex-row justify-center items-center md:space-x-10 mx-auto"
-    >
-      <div class="w-64 flex justify-center items-center">
-        <svg viewBox="0 0 128 128" width="750px" height="250px">
-          <path
-            fill="#C00"
-            d="M122 72.3h-5.3v-2.7h10.5v-5.9h-10c-2.6 0-6.1 2.1-6.1 6.1v2c0 4 3.4 6 6.1 6h5v2.8l-10.8.1v5.9H122c2.2 0 5.9-1.6 6-6v-2.3c0-3.8-3.1-6-6-6zM60.4 71.4c0-7.3-6.9-8-6.9-8H41.2v23.1h6.2V81l5.4 5.6H62l-7.3-7.4s5.7-.5 5.7-7.8zm-8.1 3.1h-5v-5.3h5s1.4.5 1.4 2.6c0 2.2-1.4 2.7-1.4 2.7zM75.7 63.6h-6.3c-4.5 0-6 4.1-6 6v16.9h6.3v-4h5.9v4h6.1V69.6c0-4.9-4.4-6-6-6zm-.1 12.3h-6v-5.6s0-1.3 2-1.3h2.2c1.7 0 1.8 1.3 1.8 1.3v5.6zM84.6 63.6h6.6v22.9h-6.6zM100.4 63.6h-6.5v22.9h15.3v-5.9h-8.8z"
-          ></path>
-          <path
-            fill="#C00"
-            d="M72.2 60.7c.6-.5 1.1-.9 1.1-.9S56.5 43 37.7 44.9c-9.4.8-21 9.4-27.8 20.7-6.8 11.3-7.7 20.9-7.7 20.9h25.6s-4.9-22.3 11.3-31.3c3.5-1.7 14.8-8.1 33.1 5.5zM55.5 44.5c-.3-.2-1.1-.6-3.1-1.1l-.1 2.1c1.1.4 2.1.8 3.1 1.2l.1-2.2z"
-          ></path>
-          <path
-            fill="#C00"
-            d="M55.5 55.9l.1-2c-1.1-.2-2.2-.3-3.2-.4l-.1 2c1.1 0 2.1.2 3.2.4zM40.4 43.5h.3l-.6-2c-1 0-2 .1-3.1.2l.6 1.9c.9-.1 1.8-.1 2.8-.1zM42.6 57.6c.9-.5 1.9-.8 2.8-1.1l-.7-2.1c-1 .2-2 .6-2.8 1l.7 2.2zM27.2 46.9l-1.5-2.2c-.7.3-1.6.8-2.4 1.3l1.5 2.3c.8-.5 1.6-1 2.4-1.4zM33.9 61.4l1.6 2.3c.6-.8 1.2-1.6 1.9-2.3l-1.5-2.2c-.8.7-1.4 1.5-2 2.2zM30.2 68.3c-.5 1.2-.8 2.4-1 3.5l2.6 2.1c.1-1.3.4-2.5.7-3.8l-2.3-1.8zM15 56.5l-2.3-2c-.8.8-1.7 1.6-2.4 2.4l2.5 2.1c.7-.9 1.4-1.7 2.2-2.5zM5.2 70.9l-3.7-1.4c-.6 1.4-1.3 3-1.6 3.9l3.7 1.4c.4-1.1 1.1-2.7 1.6-3.9zM28.7 80c.1 1.7.2 3.1.4 4.1l3.9 1.4c-.3-1.3-.6-2.7-.8-4.2L28.7 80z"
-          ></path>
+  <h2 class="flex justify-center items-center text-center font-bold text-2xl mt-8 my-6 tracking-wide text-black-header">Contact With Me</h2>
+
+  <section class="w-full flex justify-center items-center text-center mx-auto space-x-2 md:space-x-4">  
+    <a href="https://www.linkedin.com/in/sabricakir">
+      <div class="visible light-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="50"
+          height="50" viewBox="0 0 24 24" stroke-width="2" stroke="#04aa6d" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+          <path d="M8 11l0 5" />
+          <path d="M8 8l0 .01" />
+          <path d="M12 16l0 -5" />
+          <path d="M16 16v-3a2 2 0 0 0 -4 0" />
         </svg>
       </div>
-      <div
-        class="bg-gradient-to-r md:bg-gradient-to-t md:mt-8 from-red-500 to-black w-96 h-1.5 md:w-1.5 md:h-28 md:rotate-12"
-      ></div>
-      <div class="w-64 flex justify-center items-center mt-10">
-        <svg
-          width="290px"
-          height="80px"
-          viewBox="0 0 289.69 79.8"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            class="letter"
-            d="m31.3 18.73-2.98 17.14h-9.24l2.99-17.14h-13.79l-8.28 47.53h13.79l3.25-18.71h9.24l-3.26 18.71h13.82l8.28-47.53z"
-          ></path>
-          <path
-            class="letter"
-            d="m82.83 20.14a8.76 8.76 0 0 0 -3.77-1.57 28.88 28.88 0 0 0 -5.18-.42h-11.47a30.88 30.88 0 0 0 -5.28.42 12.38 12.38 0 0 0 -4.3 1.57 9.37 9.37 0 0 0 -3.11 3.12 14.72 14.72 0 0 0 -1.81 5.14l-4.86 27.78a13.63 13.63 0 0 0 0 5.29 5.9 5.9 0 0 0 1.9 3.26 8.21 8.21 0 0 0 3.7 1.65 27.81 27.81 0 0 0 5.32.46h11.42a30.28 30.28 0 0 0 5.47-.46 12.18 12.18 0 0 0 4.31-1.65 9.64 9.64 0 0 0 3.11-3.26 15.27 15.27 0 0 0 1.78-5.29l4.86-27.78a11.25 11.25 0 0 0 0-5.14 6 6 0 0 0 -2.09-3.12zm-16.35 34.47h-9.37l4.28-24.24h9.37z"
-          ></path>
-          <path
-            class="letter"
-            d="m88.01 30.78h10.72l-6.17 35.48h13.78l6.18-35.48h10.73l2.1-12.05h-35.24z"
-          ></path>
-          <path
-            class="letter"
-            d="m171.06 18.73-9.28 26.11-.03-26.11h-10.9l-9.03 26.04-.17-26.04h-13.85l2.61 47.53h12.36l9.27-24.92.71 24.92h11.96l19.21-47.53z"
-          ></path>
-          <path
-            class="letter"
-            d="m248.66 20.88a8.41 8.41 0 0 0 -3.72-1.68 25.41 25.41 0 0 0 -5.2-.47h-22.81l-8.29 47.53h13.79l2.82-16.26h1.9l5.26 16.26h15.11l-6.89-18.26h.37a16.35 16.35 0 0 0 2.88-1.21 8.38 8.38 0 0 0 2.36-1.85 10.24 10.24 0 0 0 1.7-2.68 16.21 16.21 0 0 0 1.07-3.56l1.59-9.24a12.89 12.89 0 0 0 0-5.28 6.18 6.18 0 0 0 -1.94-3.3zm-12.14 11.33-.88 5.16a5.62 5.62 0 0 1 -.34.93 2.14 2.14 0 0 1 -.56.7 2.76 2.76 0 0 1 -.82.42 3.28 3.28 0 0 1 -1 .15h-5.81l1.63-9.57h5.81a2.84 2.84 0 0 1 1 .15 1.64 1.64 0 0 1 .65.43 1.39 1.39 0 0 1 .32.68 2.79 2.79 0 0 1 0 .95z"
-          ></path>
-          <path
-            class="letter"
-            d="m287.75 29.83 1.94-11.1h-29.95l-8.28 47.53h30.49l1.93-11.1h-16.7l1.39-7.95h12.77l1.8-10.25h-12.77l1.22-7.13z"
-          ></path>
-          <path
-            class="bolt"
-            d="m211.75 23-11.57 2.69 10.09-25.69-30.2 38.92 14.41-2.84-13.59 26.54 7.86-1.77-7.95 18.95 24.97-26.97-9.21 2.13z"
-          ></path>
+      <div class="hidden dark-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="50"
+          height="50" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+          <path d="M8 11l0 5" />
+          <path d="M8 8l0 .01" />
+          <path d="M12 16l0 -5" />
+          <path d="M16 16v-3a2 2 0 0 0 -4 0" />
         </svg>
       </div>
-    </section>
+    </a>
+    <a href="https://github.com/sabricakir">
+      <div class="visible light-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="50" height="50"
+          viewBox="0 0 24 24" stroke-width="2" stroke="#04aa6d" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+        </svg>
+      </div>
+      <div class="hidden dark-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="50" height="50"
+          viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+        </svg>
+      </div>
+    </a>
+    <a href="mailto:sabricakir86@gmail.com">
+      <div class="visible light-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-google" width="50" height="50"
+          viewBox="0 0 24 24" stroke-width="2" stroke="#04aa6d" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M17.788 5.108a9 9 0 1 0 3.212 6.892h-8" />
+        </svg>
+      </div>
+      <div class="hidden dark-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-google" width="50" height="50"
+          viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M17.788 5.108a9 9 0 1 0 3.212 6.892h-8" />
+        </svg>
+      </div>
+    </a>
+    <a href="https://www.instagram.com/sabricakirr/">
+      <div class="visible light-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="50"
+          height="50" viewBox="0 0 24 24" stroke-width="2" stroke="#04aa6d" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+          <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+          <path d="M16.5 7.5l0 .01" />
+        </svg>
+      </div>
+      <div class="hidden dark-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="50"
+          height="50" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+          <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+          <path d="M16.5 7.5l0 .01" />
+        </svg>
+      </div>
+    </a>
+  </section>
 
-    <footer class="static bottom-0 left-0 text-center w-full mt-16">
-      <p class="text-black text-lg opacity-75 italic mb-6">
-        © Sabri ÇAKIR - 2022
-      </p>
-    </footer>
+  <h2 class="flex justify-center items-center text-center font-bold text-2xl mt-12 my-6 tracking-wide text-black-header">Tech Stacks</h2>
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="./application.js"></script>
-  </body>
+  <section class="w-full flex justify-center items-center text-center mx-auto space-x-1 md:space-x-4">
+    <div>
+      <div class="visible light-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="50" height="50"
+          viewBox="0 0 24 24" stroke-width="2" stroke="#04aa6d" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z"></path>
+          <path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5"></path>
+        </svg>
+      </div>
+      <div class="hidden dark-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="50" height="50"
+          viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z"></path>
+          <path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5"></path>
+        </svg>
+      </div>
+    </div>
+
+    <div>
+      <div class="visible light-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-css3" width="50" height="50"
+          viewBox="0 0 24 24" stroke-width="2" stroke="#04aa6d" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z"></path>
+          <path d="M8.5 8h7l-4.5 4h4l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5"></path>
+        </svg>
+      </div>
+      <div class="hidden dark-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-css3" width="50" height="50"
+          viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z"></path>
+          <path d="M8.5 8h7l-4.5 4h4l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5"></path>
+        </svg>
+      </div>
+    </div>
+
+    <div>
+      <div class="visible light-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-javascript" width="50"
+          height="50" viewBox="0 0 24 24" stroke-width="2" stroke="#04aa6d" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z"></path>
+          <path d="M7.5 8h3v8l-2 -1"></path>
+          <path d="M16.5 8h-2.5a0.5 .5 0 0 0 -.5 .5v3a0.5 .5 0 0 0 .5 .5h1.423a0.5 .5 0 0 1 .495 .57l-.418 2.93l-2 .5">
+          </path>
+        </svg>
+      </div>
+      <div class="hidden dark-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-javascript" width="50"
+          height="50" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z"></path>
+          <path d="M7.5 8h3v8l-2 -1"></path>
+          <path d="M16.5 8h-2.5a0.5 .5 0 0 0 -.5 .5v3a0.5 .5 0 0 0 .5 .5h1.423a0.5 .5 0 0 1 .495 .57l-.418 2.93l-2 .5">
+          </path>
+        </svg>
+      </div>
+    </div>
+
+    <div>
+      <div class="visible light-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tailwind" width="50"
+          height="50" viewBox="0 0 24 24" stroke-width="2" stroke="#04aa6d" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path
+            d="M11.667 6c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 2 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968zm-4 6.5c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 1.975 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968z">
+          </path>
+        </svg>
+      </div>
+      <div class="hidden dark-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tailwind" width="50"
+          height="50" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path
+            d="M11.667 6c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 2 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968zm-4 6.5c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 1.975 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968z">
+          </path>
+        </svg>
+      </div>
+    </div>
+
+    <div>
+      <div class="visible light-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mug" width="50" height="50"
+          viewBox="0 0 24 24" stroke-width="2" stroke="#04aa6d" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path
+            d="M4.083 5h10.834a1.08 1.08 0 0 1 1.083 1.077v8.615c0 2.38 -1.94 4.308 -4.333 4.308h-4.334c-2.393 0 -4.333 -1.929 -4.333 -4.308v-8.615a1.08 1.08 0 0 1 1.083 -1.077">
+          </path>
+          <path d="M16 8h2.5c1.38 0 2.5 1.045 2.5 2.333v2.334c0 1.288 -1.12 2.333 -2.5 2.333h-2.5"></path>
+        </svg>
+      </div>
+      <div class="hidden dark-icon hover:rotate-12 ease-in-out duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mug" width="50" height="50"
+          viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path
+            d="M4.083 5h10.834a1.08 1.08 0 0 1 1.083 1.077v8.615c0 2.38 -1.94 4.308 -4.333 4.308h-4.334c-2.393 0 -4.333 -1.929 -4.333 -4.308v-8.615a1.08 1.08 0 0 1 1.083 -1.077">
+          </path>
+          <path d="M16 8h2.5c1.38 0 2.5 1.045 2.5 2.333v2.334c0 1.288 -1.12 2.333 -2.5 2.333h-2.5"></path>
+        </svg>
+      </div>
+    </div>
+
+    <div>
+      <div class="visible light-icon hover:rotate-12 ease-in-out duration-300">
+        <svg width="50" height="50" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#04aa6d">
+          <g id="SVGRepo_bgCarrier" stroke-width="2"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M1 7.19l6.64 6.64h.72L15 7.19v-.72l-3.32-3.32-.36-.15H4.68l-.36.15L1 6.47v.72zm7 5.56L2.08 6.83 4.89 4h6.22l2.81 2.83L8 12.75zm0-7.73h2.69l1.81 1.81-4.5 4.4V5.02z">
+            </path>
+          </g>
+        </svg>
+      </div>
+      <div class="hidden dark-icon hover:rotate-12 ease-in-out duration-300">
+        <svg width="50" height="50" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#ffffff">
+          <g id="SVGRepo_bgCarrier" stroke-width="2"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M1 7.19l6.64 6.64h.72L15 7.19v-.72l-3.32-3.32-.36-.15H4.68l-.36.15L1 6.47v.72zm7 5.56L2.08 6.83 4.89 4h6.22l2.81 2.83L8 12.75zm0-7.73h2.69l1.81 1.81-4.5 4.4V5.02z">
+            </path>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div>
+      <div class="visible light-icon hover:rotate-12 ease-in-out duration-300">
+        <svg fill="#04aa6d" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="50" height="50" viewBox="-51.2 -51.2 614.40 614.40" enable-background="new 0 0 512 512"
+          xml:space="preserve">
+          <g id="SVGRepo_bgCarrier" stroke-width="2"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"
+            stroke-width="1.024"></g>
+          <g id="SVGRepo_iconCarrier">
+            <g id="5151e0c8492e5103c096af88a51f6584">
+              <path display="inline"
+                d="M511.5,101.762l-11.253,16.879c0,0-28.133-31.879-79.694-26.257 c-51.574,5.626-142.517,58.136-156.585,173.461c-14.064,115.324,41.257,240.965,41.257,240.965H55.821 c0,0-6.562-41.256,9.377-120.014c15.936-78.76,39.377-131.265,79.694-206.276c40.317-75.007,105.011-136.89,198.773-145.324 C437.429,26.755,511.5,101.762,511.5,101.762z M6.126,381.17L0.5,428.053l45.943,5.623l8.442-48.756L6.126,381.17z M96.138,241.468 l-43.128-16.88l-14.064,39.376l44.068,14.064L96.138,241.468z M169.274,122.393l-32.819-21.566l-26.252,29.06l33.754,22.506 L169.274,122.393z M263.968,45.51l-22.502-25.317l-30.939,15.939l22.502,27.188L263.968,45.51z M364.297,31.446l-3.756-24.377 l-40.313-1.879l5.622,27.197L364.297,31.446z M481.496,56.759l-30.939-22.502l-0.939,16.875l26.253,14.064L481.496,56.759z M444.926,120.513l25.317,2.811v-11.249l-25.317-5.626V120.513z M364.297,118.642l12.184,22.498l17.815-14.064l-3.751-15 L364.297,118.642z M344.605,175.838l-18.755-28.128l-19.687,17.815l27.188,30L344.605,175.838z M276.16,249.901l31.876,27.196 l7.502-30.943l-27.188-20.626L276.16,249.901z M273.346,343.668l39.381,16.875l-1.871-30.939l-35.635-18.754L273.346,343.668z M345.537,463.684l-17.811-36.57h-41.253l9.378,33.758L345.537,463.684z">
+              </path>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div class="hidden dark-icon hover:rotate-12 ease-in-out duration-300">
+        <svg fill="#ffffff" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="50" height="50" viewBox="-51.2 -51.2 614.40 614.40" enable-background="new 0 0 512 512"
+          xml:space="preserve">
+          <g id="SVGRepo_bgCarrier" stroke-width="2"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"
+            stroke-width="1.024"></g>
+          <g id="SVGRepo_iconCarrier">
+            <g id="5151e0c8492e5103c096af88a51f6584">
+              <path display="inline"
+                d="M511.5,101.762l-11.253,16.879c0,0-28.133-31.879-79.694-26.257 c-51.574,5.626-142.517,58.136-156.585,173.461c-14.064,115.324,41.257,240.965,41.257,240.965H55.821 c0,0-6.562-41.256,9.377-120.014c15.936-78.76,39.377-131.265,79.694-206.276c40.317-75.007,105.011-136.89,198.773-145.324 C437.429,26.755,511.5,101.762,511.5,101.762z M6.126,381.17L0.5,428.053l45.943,5.623l8.442-48.756L6.126,381.17z M96.138,241.468 l-43.128-16.88l-14.064,39.376l44.068,14.064L96.138,241.468z M169.274,122.393l-32.819-21.566l-26.252,29.06l33.754,22.506 L169.274,122.393z M263.968,45.51l-22.502-25.317l-30.939,15.939l22.502,27.188L263.968,45.51z M364.297,31.446l-3.756-24.377 l-40.313-1.879l5.622,27.197L364.297,31.446z M481.496,56.759l-30.939-22.502l-0.939,16.875l26.253,14.064L481.496,56.759z M444.926,120.513l25.317,2.811v-11.249l-25.317-5.626V120.513z M364.297,118.642l12.184,22.498l17.815-14.064l-3.751-15 L364.297,118.642z M344.605,175.838l-18.755-28.128l-19.687,17.815l27.188,30L344.605,175.838z M276.16,249.901l31.876,27.196 l7.502-30.943l-27.188-20.626L276.16,249.901z M273.346,343.668l39.381,16.875l-1.871-30.939l-35.635-18.754L273.346,343.668z M345.537,463.684l-17.811-36.57h-41.253l9.378,33.758L345.537,463.684z">
+              </path>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <footer class="static bottom-0 left-0 mt-16 mb-2 text-center w-full">
+    <p class="text-black font-semibold text-lg italic opacity-75">
+      © Sabri ÇAKIR - 2023
+    </p>
+  </footer>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./application.js"></script>
+</body>
+
 </html>

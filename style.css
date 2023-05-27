@@ -1,19 +1,8 @@
 html{
   font-family: 'Poppins', sans-serif;
 }
+
 input:checked ~ .dot {
   transform: translateX(100%);
-  background-color: #cd381c;
+  background-color: #04aa6d;
 }
-.app-text-red{
-  color: #ff2600;
-}
-.app-text-dark-red{
-  color: #ae3432;
-}
-
-.light-icon:hover, .dark-icon:hover{
-  transform: rotate(15deg);
-  transition: ease-in-out 0.5;
-}
-
